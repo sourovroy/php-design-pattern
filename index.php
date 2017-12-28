@@ -7,6 +7,9 @@ require __DIR__ . '/vendor/autoload.php';
 // new App\Decorator\Init;
 
 // Initialize decorator pattern
-new App\Adapter\Init;
+// new App\Adapter\Init;
+
+// Initialize decorator pattern
+new App\TemplateMethod\Init;
 
 echo "\n\n"; // Make some space in terminal
