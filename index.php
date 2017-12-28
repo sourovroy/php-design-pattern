@@ -10,6 +10,9 @@ require __DIR__ . '/vendor/autoload.php';
 // new App\Adapter\Init;
 
 // Initialize decorator pattern
-new App\TemplateMethod\Init;
+// new App\TemplateMethod\Init;
+
+// Initialize decorator pattern
+new App\Strategy\Init;
 
 echo "\n\n"; // Make some space in terminal
