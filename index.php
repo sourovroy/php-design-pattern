@@ -6,13 +6,16 @@ require __DIR__ . '/vendor/autoload.php';
 // Initialize decorator pattern
 // new App\Decorator\Init;
 
-// Initialize decorator pattern
+// Initialize adapter pattern
 // new App\Adapter\Init;
 
-// Initialize decorator pattern
+// Initialize template method pattern
 // new App\TemplateMethod\Init;
 
-// Initialize decorator pattern
-new App\Strategy\Init;
+// Initialize strategy pattern
+// new App\Strategy\Init;
+
+// Initialize observer pattern
+new App\Observer\Init;
 
 echo "\n\n"; // Make some space in terminal
